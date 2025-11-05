@@ -1,8 +1,14 @@
-import array from './builtins/array.js';
+import arrayExamples from './builtins/array.js';
+import stringExamples from './builtins/string.js';
 
 function runApp() {
-  console.log("Hello, JavaScript!");
-  array(); // This will run the array demo function
+  console.log("=== JavaScript Built-in Methods===\n");
+  
+  console.log("\n=== Array Methods ===");
+  arrayExamples();
+  
+  console.log("\n=== String Methods ===");
+  stringExamples();
 }
 
 runApp();
